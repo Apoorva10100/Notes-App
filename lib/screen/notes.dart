@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:notes/screen/updatedNote.dart';
 import '../screen/newnote.dart';
 import '../control/service.dart';
-import '../model/album.dart';
-import 'package:http/http.dart';
-import 'dart:convert';
-import 'package:http/http.dart' as http;
 
 class Notes extends StatefulWidget {
   @override
@@ -37,6 +33,7 @@ class _NotesState extends State<Notes> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
+                Center(),                                                                      
                 Center(
                   child: Text(
                     'All Notes',
